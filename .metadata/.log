@@ -366,3 +366,90 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2021-11-11 15:25:25.375
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jface 2 0 2021-11-11 17:57:03.275
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-11-11 17:57:03.275
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5886fec4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c45e9b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:23.145
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SDuZmPUy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:23.145
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.SDuZmPUy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:23.146
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:23.147
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.SDuZmPUy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:24.463
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:24.464
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@14144f7f[org.springframework.tooling.boot.ls:1.28.0.202109130547(id=562)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:24.465
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.596
+!MESSAGE Boot LS startup time from start to initialized: 2130ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.677
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rVHtJLVFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.678
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.678
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.679
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.679
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.679
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.rVHtJLVF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.686
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.689
+!MESSAGE buffering callback sts4.classpath.rVHtJLVF backend false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:26.690
+!MESSAGE executing callback sts4.classpath.rVHtJLVF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 17:59:27.038
+!MESSAGE executing callback sts4.classpath.rVHtJLVF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 18:50:54.216
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rVHtJLVF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 18:50:54.217
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.rVHtJLVF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 18:50:54.218
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-11-11 18:50:54.218
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.rVHtJLVF => OK
